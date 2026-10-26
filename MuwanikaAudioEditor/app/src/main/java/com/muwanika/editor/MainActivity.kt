@@ -5,16 +5,15 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.ui.Modifier
-import com.muwanika.editor.ui.AudioEditorScreen
+import com.muwanika.editor.ui.ResponsiveEditorScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                Surface(modifier = Modifier) {
-                    AudioEditorScreen()
+                Surface {
+                    ResponsiveEditorScreen()
                 }
             }
         }
