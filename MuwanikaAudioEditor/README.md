@@ -2,13 +2,20 @@
 
 A starter Android app built with Kotlin and Jetpack Compose for audio editing.
 
-Project directory:
-- `MuwanikaAudioEditor/`
+Project package:
+- com.muwanika.editor
+
+App name:
+- MUWANIKA AUDIO EDITOR
 
 Included:
-- Compose app setup
-- package `com.muwanika.editor`
-- app name `MUWANIKA AUDIO EDITOR`
-- audio editor logic for opening, trimming, fading, and exporting WAV files
+- responsive portrait + landscape layouts
+- audio file opening
+- decode PCM
+- trim silence
+- fade in/out
+- gain normalization
+- energy curve preview
+- WAV export
 
-Open the folder in Android Studio and run the app.
+Open this folder in Android Studio and run it.
